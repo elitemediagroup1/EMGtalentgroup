@@ -87,7 +87,7 @@ main>section:not(.editorial-hero):not(.choice-section){padding:clamp(78px,10vw,1
 .about-hero .hero-shade{display:none}
 .about-hero__bg{position:absolute;inset:0;z-index:-2;background:linear-gradient(180deg,#eef2f6 0%,#e4eaf0 100%)}
 .about-hero__photo{position:absolute;top:0;right:0;bottom:0;width:60%;z-index:-1;background-image:var(--hero-image);background-size:130%;background-position:38% 62%;background-repeat:no-repeat}
-.about-hero__photo::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#f4f6f8 0%,rgba(244,246,248,.75) 14%,rgba(244,246,248,0) 42%)}
+.about-hero__photo::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#f4f6f8 0%,rgba(244,246,248,.55) 4%,rgba(244,246,248,0) 12%)}
 .about-hero__photo::after{content:"";position:absolute;left:0;right:0;bottom:0;height:120px;background:linear-gradient(0deg,#f4f6f8,transparent)}
 .about-hero .wrap{position:relative;z-index:1}
 .about-hero__col{max-width:560px}
