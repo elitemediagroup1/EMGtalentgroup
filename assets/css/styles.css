@@ -110,3 +110,6 @@ main>section:not(.editorial-hero):not(.choice-section){padding:clamp(78px,10vw,1
   .about-hero__col{max-width:100%}
   .about-hero__features{max-width:100%}
 }
+
+/* nav readability scrim over light about hero */
+.about-hero .about-hero__navscrim{position:fixed;top:0;left:0;right:0;height:120px;z-index:99;pointer-events:none;background:linear-gradient(180deg,rgba(9,11,13,.55) 0%,rgba(9,11,13,.28) 55%,rgba(9,11,13,0) 100%)}
