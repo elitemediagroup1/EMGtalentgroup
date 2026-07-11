@@ -130,3 +130,9 @@ main>section:not(.editorial-hero):not(.choice-section){padding:clamp(78px,10vw,1
   .eco-hero__col{max-width:100%}
   .eco-hero__media{aspect-ratio:16/10}
 }
+
+/* how-we-work hero: show full image, text left */
+.page-process .editorial-hero{background-color:#090b0d;background-size:contain;background-position:right center;background-repeat:no-repeat;min-height:82vh;align-items:center}
+.page-process .hero-shade{background:linear-gradient(90deg,rgba(9,11,13,.97) 0%,rgba(9,11,13,.92) 30%,rgba(9,11,13,.4) 50%,rgba(9,11,13,0) 60%)}
+.page-process .editorial-hero .wrap>*{max-width:600px}
+@media(max-width:900px){.page-process .editorial-hero{background-size:cover;background-position:center;min-height:70vh}.page-process .hero-shade{background:linear-gradient(90deg,rgba(9,11,13,.9) 0%,rgba(9,11,13,.6) 60%,rgba(9,11,13,.4) 100%)}.page-process .editorial-hero .wrap>*{max-width:100%}}
